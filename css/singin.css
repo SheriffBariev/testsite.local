@@ -1,0 +1,166 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #eee;
+}
+
+footer h2{
+    text-align: center;
+    margin: 0;
+}
+
+footer{
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.white_bg {
+    background: #fff;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.clear{
+    clear: both;
+}
+
+.mesage_error{
+    color: #cc0000;
+}
+
+.success_message{
+    color: green;
+}
+
+.block_for_messages{
+    text-align: center;
+}
+
+#header, #footer{
+    border: 2px solid #000;
+}
+
+#header{
+    padding-left: 10px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#header h2, #footer h2{
+    text-align: center;
+    margin: 0;
+}
+
+#auth_block{
+    width: 290px;
+    float: right;
+    text-align: center;
+}
+
+#auth_block a{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+}
+
+#auth_block a:hover{
+    text-decoration: underline;
+}
+
+#link_register{
+    float: left;
+}
+
+#link_auth, #link_logout{
+    float: right;
+}
+
+#link_register a{
+    background: #54d854;
+}
+
+#link_auth a, #link_logout a{
+    background: #4e4eec;
+    text-align: center;
+}
+
+#form_register, #form_auth{
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#authorized h2{
+    text-align: center;
+}
+
+.Box-body:last-of-type {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.Box--condensed .Box-body, .Box--condensed .Box-footer, .Box--condensed .Box-header {
+    padding: 8px 16px;
+}
+.Box-body {
+    padding: 16px;
+}
+
+.markdown-body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.p-5 {
+    padding: 32px!important;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+}
